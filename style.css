@@ -29,7 +29,7 @@
     height: 100vh;
     top: 0;
     left: 0;
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -43,7 +43,7 @@ nav {
 
 .logo {
     text-align: center;
-    color:#a0b9ff;
+    color: #a0b9ff;
 }
 
 .menu a:hover {
@@ -60,4 +60,41 @@ nav a:hover img {
 
 a {
     text-decoration: none;
+}
+
+section {
+    margin-left: 90px;
+}
+
+@media (max-width: 844px) {
+    .menu {
+        height: 70px;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .logo h3 {
+        display: none;
+    }
+
+section {
+    margin:0 20px;
+}
+
+.header {
+    margin-top:90px;
+}
+
+
 }
