@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+    font-family: "Nunito", sans-serif;
 }
 
 .bg {
@@ -64,6 +67,19 @@ a {
 
 section {
     margin-left: 90px;
+}
+
+.title {
+   padding: 20px;
+   color:#a0b9ff;
+   box-shadow: 0 5px 10px #4b4b4b;
+   height: auto; 
+   width: 300px;
+   margin:auto;
+   background-color: white;
+   border-radius: 0 0 10px 10px;
+   text-align: center;
+   font-weight: bold;
 }
 
 @media (max-width: 844px) {
