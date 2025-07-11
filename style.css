@@ -35,6 +35,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 3px;
 }
 
 nav {
@@ -66,7 +67,7 @@ a {
 }
 
 section {
-    margin-left: 90px;
+    margin-left: 96px;
 }
 
 .title {
@@ -81,6 +82,48 @@ section {
    text-align: center;
    font-weight: bold;
 }
+
+.planet-facts {
+    margin: 150px 0;
+    display: flex;
+}
+
+.facts-left {
+    width: 45%;
+    background-image: url(images/intro2.jpg) ;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 20px 20px 0;
+}
+
+.facts-right {
+    width: 55%;
+
+}
+
+.right-content {
+    display:flex;
+    background:white;
+    height: 100%;
+    list-style-type:none;
+    justify-content:center;
+    align-items:center;
+}
+
+.right-content li {
+    background-color: #e5ffe5;
+    padding: 10px 20px;
+    margin: 0 20px;
+    border-radius: 30px;
+    font-weight:900;
+}
+
 
 @media (max-width: 844px) {
     .menu {
