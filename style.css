@@ -124,6 +124,49 @@ section {
     font-weight:900;
 }
 
+.gallery-title {
+    text-align:center;
+    font-size:18px;
+    margin-bottom: 20px;
+}
+
+.gal-title-icon img  {
+    width:30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.gallery-item img {
+    width:300px;
+    height: 500px;
+    object-fit:cover;
+    position:absolute;
+    border-radius: 25px;
+}
+
+.gal-item-text {
+    z-index:10;
+    position: relative;
+    background-color: white;
+    border-radius: 50px;
+    width:fit-content;
+    padding: 10px;
+    filter:opacity(0.8);
+    text-align: center;
+}
+
+.gallery-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 500px;
+}
+
+.gallery-content {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media (max-width: 844px) {
     .menu {
