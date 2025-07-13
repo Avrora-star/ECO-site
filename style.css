@@ -124,13 +124,13 @@ section {
     font-weight:900;
 }
 
-.gallery-title {
+.section-title {
     text-align:center;
     font-size:18px;
-    margin-bottom: 20px;
+    margin: 30px 0;
 }
 
-.gal-title-icon img  {
+.title-icon img  {
     width:30px;
     height: 30px;
     margin-left: 10px;
@@ -167,6 +167,35 @@ section {
     display: flex;
     justify-content: space-around;
 }
+
+.about-content {
+    display: flex;
+}
+
+.about-content-item {
+    width:33%;
+    text-align: center;
+    padding: 150px 0;
+    color:white;
+    font-size:30px;
+    font-weight: 900;
+    background-position: center;
+    background-repeat:no-repeat ;
+    background-size:cover;
+}
+
+.ab-item1 {
+    background-image:url(images/internet.jpg) ;
+}
+
+.ab-item2 {
+     background-image:url(images/events.jpg) ;
+}
+
+.ab-item3 {
+    background-image: url(images/friends.jpg);
+}
+
 
 @media (max-width: 844px) {
     .menu {
