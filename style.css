@@ -71,16 +71,16 @@ section {
 }
 
 .title {
-   padding: 20px;
-   color:#a0b9ff;
-   box-shadow: 0 5px 10px #4b4b4b;
-   height: auto; 
-   width: 300px;
-   margin:auto;
-   background-color: white;
-   border-radius: 0 0 10px 10px;
-   text-align: center;
-   font-weight: bold;
+    padding: 20px;
+    color: #a0b9ff;
+    box-shadow: 0 5px 10px #4b4b4b;
+    height: auto;
+    width: 300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .planet-facts {
@@ -90,8 +90,8 @@ section {
 
 .facts-left {
     width: 45%;
-    background-image: url(images/intro2.jpg) ;
-    background-position:center ;
+    background-image: url(images/intro2.jpg);
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
@@ -108,12 +108,12 @@ section {
 }
 
 .right-content {
-    display:flex;
-    background:white;
+    display: flex;
+    background: white;
     height: 100%;
-    list-style-type:none;
-    justify-content:center;
-    align-items:center;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
 }
 
 .right-content li {
@@ -121,37 +121,37 @@ section {
     padding: 10px 20px;
     margin: 0 20px;
     border-radius: 30px;
-    font-weight:900;
+    font-weight: 900;
 }
 
 .section-title {
-    text-align:center;
-    font-size:18px;
+    text-align: center;
+    font-size: 18px;
     margin: 30px 0;
 }
 
-.title-icon img  {
-    width:30px;
+.title-icon img {
+    width: 30px;
     height: 30px;
     margin-left: 10px;
 }
 
 .gallery-item img {
-    width:300px;
+    width: 300px;
     height: 500px;
-    object-fit:cover;
-    position:absolute;
+    object-fit: cover;
+    position: absolute;
     border-radius: 25px;
 }
 
 .gal-item-text {
-    z-index:10;
+    z-index: 10;
     position: relative;
     background-color: white;
     border-radius: 50px;
-    width:fit-content;
+    width: fit-content;
     padding: 10px;
-    filter:opacity(0.8);
+    filter: opacity(0.8);
     text-align: center;
 }
 
@@ -173,28 +173,90 @@ section {
 }
 
 .about-content-item {
-    width:33%;
+    width: 33%;
     text-align: center;
     padding: 150px 0;
-    color:white;
-    font-size:30px;
+    color: white;
+    font-size: 30px;
     font-weight: 900;
     background-position: center;
-    background-repeat:no-repeat ;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .ab-item1 {
-    background-image:url(images/internet.jpg) ;
+    background-image: url(images/internet.jpg);
 }
 
 .ab-item2 {
-     background-image:url(images/events.jpg) ;
+    background-image: url(images/events.jpg);
 }
 
 .ab-item3 {
     background-image: url(images/friends.jpg);
 }
+
+.images-fon {
+    width: 50%;
+    height: auto;
+    background-image: url(images/land0.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 30px 30px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-em {
+    width: 50px;
+    height: 50px;
+
+}
+
+.register input {
+    border: solid 1px rgb(87, 87, 87);
+    width: 50%;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+    border-radius:2px;
+}
+
+.register {
+    text-align: center;
+}
+
+.sap {
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 10px 10px grey;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 15px auto;
+}
+
+.back-content {
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+}
+
+.back-right {
+    width: 47%;
+}
+
+#back {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
 
 
 @media (max-width: 844px) {
@@ -219,13 +281,13 @@ section {
         display: none;
     }
 
-section {
-    margin:0 20px;
-}
+    section {
+        margin: 0 20px;
+    }
 
-.header {
-    margin-top:90px;
-}
+    .header {
+        margin-top: 90px;
+    }
 
 
 }
